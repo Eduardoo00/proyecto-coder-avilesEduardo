@@ -1,0 +1,92 @@
+@import "mixins";
+
+.caruosel-img{
+    @include carousel;
+    background-image: url(../assets/cafe.jpg);
+    }
+    
+    .caruosel-img2{
+        @include carousel;
+        background-image: url(../assets/pasteleria.jpg);
+    }
+
+    .caruosel-img3{
+        @include carousel;
+        background-image: url(../assets/productos/Pan.jpg);
+      
+    }
+   
+
+.titulo-producto{
+    font-weight: 800;
+}
+
+.fondo-titulo{
+    background-color: $color-titulo
+}
+
+.producto-img{
+    @include producto;
+    background-image: url(../assets/productos/cupcake.jpg);
+
+}
+.producto-img2{
+     @include producto;
+    background-image: url(../assets/productos/Pastel.jpg);
+    
+}
+
+.producto-img3{
+    @include producto;
+    background-image: url(../assets/productos/Galletas.jpg);
+
+
+}
+.producto-img4{
+    @include producto;
+    background-image: url(../assets/productos/Pan.jpg);
+
+}
+.producto-img5{
+    @include producto;
+    background-image: url(../assets/Facturas.jpg);
+
+}
+.producto-img6 {
+    @include producto;
+    background-image: url(../assets/pizza.jpg);
+
+}
+.producto-img7 {
+    @include producto;
+    background-image: url(../assets/sandwich-de-miga.jpg);
+   
+}
+.producto-img8 {
+    @include producto;
+    background-image: url(../assets/Receta-de-chipa-paraguaya.jpg);
+   
+}
+.producto-img9 {
+    @include producto;
+    background-image: url(../assets/desayuno.jpg);
+ 
+}
+.nosotros-img{
+    @include nosotros;
+    background-image: url(../assets/Nosotros.jpg);
+   
+}
+
+.nosotros-tex3 {
+    @include nosotros;
+    background-image: url(../assets/PANADERO.jpg);
+
+}
+
+.nosotros-tex{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}

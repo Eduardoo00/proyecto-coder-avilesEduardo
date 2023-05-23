@@ -1,0 +1,39 @@
+@import "variables";
+.contenedor-logo{
+    height: 8vh;
+}
+.contenedor-logo img{
+    height: 100%;
+
+}
+.nav-flex{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.fondo-nav{
+    background-color: $color-fondo;
+    color: $color-letra;
+}
+.nav-flex li a{
+    color: $color-letra;
+}
+
+.fondo{
+    background-image: url(../assets/fondo.jpg);
+    background-size: cover;
+    background-position:center;
+    height: 100%;
+}
+
+.titulos{
+    text-align: center;
+}
+.titulos h1,h2 {
+    font-weight: 900;
+}
+
+.grosor{
+    font-weight: 600;
+}
+

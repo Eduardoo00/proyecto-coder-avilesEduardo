@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400;600;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #f9f7f8;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.contenedor-logo{
+    height: 8vh;
+}
+.contenedor-logo img{
+    height: 100%;
+
+}
+.nav-flex{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.fondo-nav{
+    background-color: #af762f;
+    color: #f9f7f8;
+}
+.nav-flex li a{
+    color: #f9f7f8;
+}
+
+.fondo{
+    background-image: url(../assets/fondo.jpg);
+    background-size: cover;
+    background-position:center;
+    height: 100%;
+}
+
+.titulos{
+    text-align: center;
+}
+.titulos h1,h2 {
+    font-weight: 900;
+}
+
+.grosor{
+    font-weight: 600;
+}
+
+.caruosel-img{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../assets/cafe.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 16vh;
+    font-size: 1.5em;
+}
+
+.caruosel-img2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../assets/pasteeeel.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 16vh;
+}
+
+.caruosel-img3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../assets/productos/Pan.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 16vh;
+}
+
+.titulo-producto{
+    font-weight: 800;
+}
+
+.fondo-titulo{
+    background-color: rgba(0, 0, 0, 0.486);
+}
+
+.producto-img{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../assets/productos/cupcake.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 25vh;
+
+}
+.producto-img2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../assets/productos/Pastel.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 25vh;
+    
+}
+
+.producto-img3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../assets/productos/Galletas.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 25vh;
+
+}
+.producto-img4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../assets/productos/Pan.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 25vh;
+}
+.producto-img5{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../assets/Facturas.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 25vh;
+}
+.producto-img6 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../assets/pizza.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 25vh;
+
+}
+.producto-img7 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../assets/sandwich-de-miga.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 25vh;
+}
+.producto-img8 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../assets/Receta-de-chipa-paraguaya.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 25vh;
+}
+.producto-img9 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../assets/desayuno.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 25vh;
+}
+.nosotros-img{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../assets/Nosotros.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 40vh;
+}
+.nosotros-tex{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.nosotros-tex3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../assets/PANADERO.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 40vh;
+}
+
+.footer{
+  
+    background-color: #af762f;
+}
+
+.footer__flex {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+  }
+
+
+@media (min-width: 768px){
+    .contenedor-logo{
+        height: 12vh;
+    }
+    .caruosel-img{
+        height: 24vh;
+    }
+    .caruosel-img2{
+        height: 24vh;
+    }
+    .caruosel-img3{
+        height: 24vh;
+    }
+}

@@ -1,0 +1,39 @@
+@mixin display-flex($jusitfy, $align, $direction) {
+    display:flex;
+    justify-content: $jusitfy;
+    align-items: $align;
+    flex-direction: $direction;
+}
+
+@mixin carousel{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    background-position: center;
+    height: 16vh;
+    font-size: 1.5em;
+}    
+
+@mixin producto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    background-position: center;
+    height: 25vh;
+
+}
+
+@mixin nosotros {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../assets/Nosotros.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 40vh;
+}
