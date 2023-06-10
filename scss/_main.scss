@@ -2,12 +2,12 @@
 
 .caruosel-img{
     @include carousel;
-    background-image: url(../assets/cafe.jpg);
+    background-image: url(../assets/productos/cafe.jpg);
     }
     
     .caruosel-img2{
         @include carousel;
-        background-image: url(../assets/pasteleria.jpg);
+        background-image: url(../assets/productos/pasteleria.jpg);
     }
 
     .caruosel-img3{
@@ -47,40 +47,40 @@
     background-image: url(../assets/productos/Pan.jpg);
 
 }
-.producto-img5{
+.producto-img5{ 
     @include producto;
-    background-image: url(../assets/Facturas.jpg);
+    background-image: url(../assets/productos/Facturas.jpg); 
 
 }
 .producto-img6 {
     @include producto;
-    background-image: url(../assets/pizza.jpg);
+    background-image: url(../assets/productos/pizza.jpg);
 
 }
 .producto-img7 {
     @include producto;
-    background-image: url(../assets/sandwich-de-miga.jpg);
+    background-image: url(../assets/productos/sandwich-de-miga.jpg);
    
 }
 .producto-img8 {
     @include producto;
-    background-image: url(../assets/Receta-de-chipa-paraguaya.jpg);
+    background-image: url(../assets/productos/Receta-de-chipa-paraguaya.jpg);
    
 }
 .producto-img9 {
     @include producto;
-    background-image: url(../assets/desayuno.jpg);
+    background-image: url(../assets/productos/desayuno.jpg);
  
 }
 .nosotros-img{
     @include nosotros;
-    background-image: url(../assets/Nosotros.jpg);
+    background-image: url(../assets/productos/logos/Nosotros.jpg);
    
 }
 
 .nosotros-tex3 {
     @include nosotros;
-    background-image: url(../assets/PANADERO.jpg);
+    background-image: url(../assets/productos/logos/PANADERA.jpg);
 
 }
 
@@ -89,4 +89,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+}
+.main-contacto{
+    height: 70vh;
 }

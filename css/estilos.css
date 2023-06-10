@@ -31,7 +31,7 @@
 }
 
 .fondo {
-  background-image: url(../assets/fondo.jpg);
+  background-image: url(../assets/productos/logos/fondo.jpg);
   background-size: cover;
   background-position: center;
   height: 100%;
@@ -58,7 +58,7 @@
   background-position: center;
   height: 16vh;
   font-size: 1.5em;
-  background-image: url(../assets/cafe.jpg);
+  background-image: url(../assets/productos/cafe.jpg);
 }
 
 .caruosel-img2 {
@@ -70,7 +70,7 @@
   background-position: center;
   height: 16vh;
   font-size: 1.5em;
-  background-image: url(../assets/pasteleria.jpg);
+  background-image: url(../assets/productos/pasteleria.jpg);
 }
 
 .caruosel-img3 {
@@ -145,7 +145,7 @@
   background-size: cover;
   background-position: center;
   height: 25vh;
-  background-image: url(../assets/Facturas.jpg);
+  background-image: url(../assets/productos/Facturas.jpg);
 }
 
 .producto-img6 {
@@ -156,7 +156,7 @@
   background-size: cover;
   background-position: center;
   height: 25vh;
-  background-image: url(../assets/pizza.jpg);
+  background-image: url(../assets/productos/pizza.jpg);
 }
 
 .producto-img7 {
@@ -167,7 +167,7 @@
   background-size: cover;
   background-position: center;
   height: 25vh;
-  background-image: url(../assets/sandwich-de-miga.jpg);
+  background-image: url(../assets/productos/sandwich-de-miga.jpg);
 }
 
 .producto-img8 {
@@ -178,7 +178,7 @@
   background-size: cover;
   background-position: center;
   height: 25vh;
-  background-image: url(../assets/Receta-de-chipa-paraguaya.jpg);
+  background-image: url(../assets/productos/Receta-de-chipa-paraguaya.jpg);
 }
 
 .producto-img9 {
@@ -189,7 +189,7 @@
   background-size: cover;
   background-position: center;
   height: 25vh;
-  background-image: url(../assets/desayuno.jpg);
+  background-image: url(../assets/productos/desayuno.jpg);
 }
 
 .nosotros-img {
@@ -201,7 +201,7 @@
   background-size: cover;
   background-position: center;
   height: 40vh;
-  background-image: url(../assets/Nosotros.jpg);
+  background-image: url(../assets/productos/logos/Nosotros.jpg);
 }
 
 .nosotros-tex3 {
@@ -213,7 +213,7 @@
   background-size: cover;
   background-position: center;
   height: 40vh;
-  background-image: url(../assets/PANADERO.jpg);
+  background-image: url(../assets/productos/logos/PANADERA.jpg);
 }
 
 .nosotros-tex {
@@ -221,6 +221,10 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+}
+
+.main-contacto {
+  height: 70vh;
 }
 
 @media (min-width: 768px) {
@@ -235,6 +239,9 @@
   }
   .caruosel-img3 {
     height: 24vh;
+  }
+  .main-contacto {
+    height: 70vh;
   }
 }
 .footer {
